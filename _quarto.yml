@@ -1,16 +1,18 @@
 project:
   type: website
-  output-dir: .
+  resources:
+    - example.py
+
 
 website:
   title: "paneltime.github.io"
   sidebar:
     style: floating
     contents:
-      - index.md           # appears first
-      - attributes.md           # appears second
-      - options.md 
-      - hfunc.md
+      - index.qmd           # appears first
+      - attributes.qmd           # appears second
+      - options.qmd 
+      - hfunc.qmd
 
 format:
   html:
@@ -18,3 +20,4 @@ format:
     css: styles.css
     toc: true
     math: mathjax
+    template-engine: jinja

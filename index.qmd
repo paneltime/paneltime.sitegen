@@ -6,7 +6,6 @@ format:
 ---
 
 
-# About
 
 **Paneltime** is a statistical tool for estimating regressions on datasets that:  
 
@@ -54,10 +53,10 @@ variable that is the absolute value of x.
 
 # Example using world bank data
 ```python
-{% include_relative docs/example.py %}
+{{< include example.py >}}
 ```
 
-[download](docs/example.py){:target="_blank"}
+[download](example.py)
 
 
 
