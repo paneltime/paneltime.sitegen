@@ -200,7 +200,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p>The option <code>pt.options.h_func</code> allows you to define your own GARCH heteroskedasticity function. It must be a dict with keys ‘h’, ‘h_e’, ‘h_e2’, ‘h_z’,‘h_z2’ and ‘h_e_z’, defining the function h(e,z) and its derivatives</p>
 <p><span class="math inline">\(\frac{\partial h}{\partial e}\)</span>,<br>
-<span class="math inline">\(\frac{\partial^2 h}{{\partial e}^2}\)</span>, <span class="math inline">\(\frac{\partial h}{\partial z}\)</span> <span class="math inline">\(\frac{\partial^2 h}{{\partial z}^2}\)</span>, <span class="math inline">\(\frac{\partial^2 h}{\partial e}\)</span> <span class="math inline">\(\frac{\partial h}{\partial e \partial e}\)</span></p>
+<span class="math inline">\(\frac{\partial^2 h}{{\partial e}^2}\)</span>, <span class="math inline">\(\frac{\partial h}{\partial z}\)</span> <span class="math inline">\(\frac{\partial^2 h}{{\partial z}^2}\)</span>, <span class="math inline">\(\frac{\partial^2 h}{\partial e \partial z}\)</span></p>
 <p>respectively.</p>
 <p>The function h(e,z) must be a string with the variable e and optionally z. Hence, you define the string of the mathemtical function to be performed, and not the function itself. Correspondingly, the derivatives must be strings represeting mathematical expressions, and not function defitions. Se ‘GARCH heteroskedasticity function syntax guide’ in the documentation for information on how to write the mathematical expressions. </p>
 <p>For example, you could define the function as</p>

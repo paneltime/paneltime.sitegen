@@ -12,8 +12,8 @@ $\frac{\partial h}{\partial e}$,
 $\frac{\partial^2 h}{{\partial e}^2}$,
 $\frac{\partial h}{\partial z}$
 $\frac{\partial^2 h}{{\partial z}^2}$, 
-$\frac{\partial^2 h}{\partial e}$ 
-$\frac{\partial h}{\partial e \partial e}$
+$\frac{\partial^2 h}{\partial e \partial z}$ 
+
 
 respectively. 
 
