@@ -5,7 +5,7 @@ format:
     toc: true
 ---
 The option `pt.options.h_func` allows you to define your own GARCH heteroskedasticity function. It must be a dict with keys 
- 'h', 'h\_e', 'h\_e2', 'h\_z','h\_z2' and 'h\_e\_z', defining the function h(e,z) and 
+ 'h', 'h_e', 'h_e2', 'h_z','h_z2' and 'h_e_z', defining the function h(e,z) and 
 its derivatives 
 
 $\frac{\partial h}{\partial e}$,  
