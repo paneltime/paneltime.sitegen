@@ -7,10 +7,10 @@ website:
   sidebar:
     style: floating
     contents:
-      - index.qmd           # appears first
-      - attributes.qmd           # appears second
-      - options.qmd 
-      - hfunc.cmd
+      - index.md           # appears first
+      - attributes.md           # appears second
+      - options.md 
+      - hfunc.md
 
 format:
   html:
