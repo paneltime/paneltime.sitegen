@@ -1,14 +1,16 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: .
 
 website:
   title: "paneltime.github.io"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  sidebar:
+    style: floating
+    contents:
+      - index.qmd           # appears first
+      - attributes.qmd           # appears second
+      - options.qmd 
+      - hfunc.cmd
 
 format:
   html:
@@ -16,6 +18,3 @@ format:
     css: styles.css
     toc: true
     math: mathjax
-
-
-
