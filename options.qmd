@@ -6,8 +6,6 @@ format:
 ---
 
 
-# Setting options
-
 
 You can set various options by setting attributes of the `options` attribute, for example:
 ```
